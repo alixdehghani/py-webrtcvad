@@ -1,6 +1,15 @@
 .. image:: https://travis-ci.org/wiseman/py-webrtcvad.svg?branch=master
     :target: https://travis-ci.org/wiseman/py-webrtcvad
 
+I just add extract_sample_of_start_and_end_of_voice.py file
+    in my program you just paste my file in your directory 
+    and then this program read all wav file in your directory and extract samples of start and end of voice file and save all
+    in a file named dataset.txt
+    format of dataset:
+        "name file" <start sample of detected speech> <end sample of detected speech> <end sample of  voice file>
+        
+    sample equal to: time/sample_rate
+
 py-webrtcvad
 ============
 
